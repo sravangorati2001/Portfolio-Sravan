@@ -28,6 +28,9 @@ class Contact extends Component {
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
+                  width={"300px"}
+                  height={"350px"}
+                  style={{ borderRadius: "40px" }}
                 />
               </div>
               <div className="contact-heading-text-div">

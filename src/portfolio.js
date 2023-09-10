@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Sravan Kumar",
   logo_name: "SravanKumar",
-  nickname: "layman_brother",
+  nickname: "Throny",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -63,12 +63,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
   {
     name: "Instagram",
     link: "https://www.instagram.com/_sravan_.kumar/",
@@ -83,9 +77,9 @@ const skills = {
       title: "Programming Languages",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+       "⚡Accomplished problem solver with a track record of tackling over 1300+ complex coding challenges, demonstrating a deep understanding of language-specific nuances and best practices.",
+"⚡Developed custom functions in C++ to streamline debugging processes and enhance code readability. Skilled at translating concepts and functions from other languages into C++, bridging language gaps.",
+ "⚡Proficient in building custom solutions and solving intricate problems across languages, showcasing versatility in software development.",
       ],
       softwareSkills: [
         {
@@ -142,9 +136,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Built ReactJs applications using Data Structures and Algorithms",
+        "⚡ Designing highly attractive user interface for web applications",
+        "⚡ Creating application backend in Node, Express & PHP",
       ],
       softwareSkills: [
         {
@@ -226,8 +220,6 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
@@ -296,9 +288,8 @@ const skills = {
       title: "Tools and Technologies",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Profficient in various operating systems",
+        "⚡ Testing of REST API's using postman",
       ],
       softwareSkills: [
         {
@@ -397,9 +388,9 @@ const degrees = {
       alt_name: "JNTUH",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Undertook a rigorous academic journey with a focus on cutting-edge technologies, including Object-Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing, Operating Systems, and Database Management Systems. Developed a strong foundation in computer science fundamentals.",
+        "⚡ As the Head of 'Bits and Bytes,' a prominent coding club at JNTUH, spearheaded efforts to transform the programming culture on campus. Organized and hosted engaging webinars to impart knowledge to fellow students, fostering technical skill development among peers. Led the organization of technical fests and orchestrated numerous successful events.",
+        "⚡Acknowledged for academic excellence with prestigious scholarships, including the MHRD Scholarship and the Telangana State Government Merit Scholarship.",
       ],
       website_link: "https://jntuhceh.ac.in/",
     },
@@ -410,9 +401,7 @@ const degrees = {
       alt_name: "San José State University",
       duration: "2023 - 2025",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Enrolled in Leading-edge coursework, including Enterprise Software Platforms, Software Systems Engineering and Enterprise Distributed Systems.",
       ],
       website_link: "https://www.sjsu.edu/",
     },
@@ -421,14 +410,14 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
-      title: "HackerRank Java",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link: "https://www.hackerrank.com/certificates/268817ba654e",
-      alt_name: "HackerRank Java",
-      color_code: "#8C151599",
-    },
+    // {
+    //   title: "HackerRank Java",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link: "https://www.hackerrank.com/certificates/268817ba654e",
+    //   alt_name: "HackerRank Java",
+    //   color_code: "#8C151599",
+    // },
     // {
     //   title: "Deep Learning",
     //   subtitle: "- Andrew Ng",
@@ -536,7 +525,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  "I've consistently demonstrated my passion for leveraging technical knowledge to support others, whether it's assisting students in their learning journeys or contributing to the growth of a startup company. My adaptability shines through as I eagerly acquire new technical skills on-demand, ensuring I can tackle challenges and provide innovative solutions effectively. This innate drive to assist, coupled with a commitment to personal growth, has enabled me to make a meaningful impact in both educational and professional settings, fostering an environment of continuous learning and achievement.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -551,7 +540,7 @@ const experience = {
           duration: "May 2022 - July 2023",
           location: "Hyderabad, Telangana",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+           "Thrived in the dynamic environment of a startup, collaborating seamlessly with an exceptional team. Committed to exceeding client expectations by going the extra mile, ensuring timely delivery of features. Adeptly resolved production challenges, elevating client satisfaction. Spearheaded innovation by proposing valuable feature enhancements to the product manager, contributing significantly to product excellence and top ratings. Committed to knowledge sharing, guided new team members to success, resolving doubts, and fostering a culture of growth and achievement.",
           color: "#0879bf",
         },
       ],
@@ -567,7 +556,7 @@ const experience = {
           duration: "Jan 2022 - May 2022",
           location: "San Francisco, USA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+         "I thrived in these fast-paced environments. I took on challenges head-on, acquiring in-demand skills on the fly to meet project requirements.   ",
           color: "#000000",
         },
       ],
@@ -583,7 +572,7 @@ const experience = {
           duration: "August 2021 - July 2022",
           location: "Hyderabad, Telangana",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "As the Head of a coding club, my mission was to nurture the next generation of tech talent. I worked tirelessly to create an environment where students could flourish, facilitating webinars, hosting events, and encouraging a culture of continuous learning. My role extended beyond leadership; I provided guidance to members, helping them build their confidence and technical prowess.",
           color: "#4285F4",
         },
       ],
@@ -595,7 +584,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -657,7 +646,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "sravan1.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Competitive Programming, NodeJs, Android, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
@@ -668,7 +657,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "754 The Alameda,",
+    subtitle: "754 The Alameda, San Jose, California",
     locality: "San Jose",
     country: "USA",
     region: "California",

@@ -536,7 +536,7 @@ const experience = {
           title: "Software Development Engineer",
           company: "Darwinbox",
           company_url: "https://darwinbox.com/",
-          logo_path: "legato_logo.png",
+          logo_path: "Darwinbox Horizontal Logo_Colour.jpg",
           duration: "May 2022 - July 2023",
           location: "Hyderabad, Telangana",
           description:
@@ -552,7 +552,7 @@ const experience = {
           title: "Product Development Intern",
           company: "Darwinbox",
           company_url: "https://darwinbox.com/",
-          logo_path: "tiktok_logo.png",
+          logo_path: "Darwinbox Horizontal Logo_Colour.jpg",
           duration: "Jan 2022 - May 2022",
           location: "San Francisco, USA",
           description:
@@ -567,8 +567,8 @@ const experience = {
         {
           title: "Head of Bits and Bytes",
           company: "Bits and Bytes - JNTUH Coding Club",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
+          company_url: "https://jntuhceh.ac.in/",
+          logo_path: "jntuhlogo.png",
           duration: "August 2021 - July 2022",
           location: "Hyderabad, Telangana",
           description:

@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Sravan Kumar's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I'm a passionate problem solver on a mission to craft end-to-end solutions that drive sustainable and scalable change, both in the social and technical realms. Join me in unraveling the mysteries of innovation and societal impact through my work.",
   og: {
     title: "Sravan Kumar Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "SravanKumar",
   nickname: "Throny",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  "I'm a passionate problem solver on a mission to craft end-to-end solutions that drive sustainable and scalable change, both in the social and technical realms. Join me in unraveling the mysteries of innovation and societal impact through my work.",
   resumeLink:
     "https://drive.google.com/file/d/1crIBGIh-l-BjVzw_T_0ujG4nN-SyTIGR/view?usp=drive_link",
   portfolio_repository: "https://github.com/sravangorati2001",

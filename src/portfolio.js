@@ -9,11 +9,11 @@ const settings = {
 const seo = {
   title: "Sravan Kumar's Portfolio",
   description:
-    "I'm a passionate problem solver on a mission to craft end-to-end solutions that drive sustainable and scalable change, both in the social and technical realms. Join me in unraveling the mysteries of innovation and societal impact through my work.",
+    "I'm a dedicated problem solver, eager to develop solutions that foster scalable and sustainable change in technology and society.",
   og: {
     title: "Sravan Kumar Portfolio",
     type: "website",
-    url: "https://github.com/sravangorati2001",
+    url: "https://sravankumargorati.com/",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "SravanKumar",
   nickname: "Throny",
   subTitle:
-  "I'm a passionate problem solver on a mission to craft end-to-end solutions that drive sustainable and scalable change, both in the social and technical realms. Join me in unraveling the mysteries of innovation and societal impact through my work.",
+    "I'm a dedicated problem solver, eager to develop solutions that foster scalable and sustainable change in technology and society.",
   resumeLink:
     "https://drive.google.com/file/d/1crIBGIh-l-BjVzw_T_0ujG4nN-SyTIGR/view?usp=drive_link",
   portfolio_repository: "https://github.com/sravangorati2001",
@@ -77,26 +77,19 @@ const skills = {
       title: "Programming Languages",
       fileName: "DataScienceImg",
       skills: [
-       "⚡Accomplished problem solver with a track record of tackling over 1300+ complex coding challenges, demonstrating a deep understanding of language-specific nuances and best practices.",
-"⚡Developed custom functions in C++ to streamline debugging processes and enhance code readability. Skilled at translating concepts and functions from other languages into C++, bridging language gaps.",
- "⚡Proficient in building custom solutions and solving intricate problems across languages, showcasing versatility in software development.",
+        "⚡Accomplished problem solver with a track record of tackling over 1300+ complex coding challenges, demonstrating a deep understanding of language-specific nuances and best practices.",
+        "⚡Developed custom functions in C++ to streamline debugging processes and enhance code readability. Skilled at translating concepts and functions from other languages into C++, bridging language gaps.",
+        "⚡Proficient in building custom solutions and solving intricate problems across languages, showcasing versatility in software development.",
       ],
       softwareSkills: [
         {
-          skillName: "C",
-          fontAwesomeClassname: "devicon:c",
+          skillName: "GO",
+          fontAwesomeClassname: "skill-icons:golang",
           style: {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "vscode-icons:file-type-cpp3",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
+
         {
           skillName: "Java",
           fontAwesomeClassname: "devicon:java-wordmark",
@@ -115,8 +108,8 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "logos:php",
+          skillName: "Javascript",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -128,6 +121,22 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "PHP",
+          fontAwesomeClassname: "logos:php",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "vscode-icons:file-type-cpp3",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
           },
         },
       ],
@@ -142,32 +151,17 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "NodeJS",
+          fontAwesomeClassname: "logos:nodejs",
           style: {
             color: "#E34F26",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "logos:spring-icon",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "devicon:bootstrap",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
           },
         },
         {
@@ -178,17 +172,17 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "logos:nodejs",
+          skillName: "NextJs",
+          fontAwesomeClassname: "devicon:nextjs",
           style: {
-            color: "#339933",
+            color: "#61DAFB",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Material UI",
+          fontAwesomeClassname: "skill-icons:materialui-light",
           style: {
-            color: "#CB3837",
+            color: "#61DAFB",
           },
         },
         {
@@ -215,7 +209,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud & Databses",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -225,6 +219,13 @@ const skills = {
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "devicon:azure-wordmark",
           style: {
             color: "#FF9900",
           },
@@ -253,8 +254,8 @@ const skills = {
           },
         },
         {
-          skillName: "RabbitMQ",
-          fontAwesomeClassname: "logos:rabbitmq",
+          skillName: "Redis",
+          fontAwesomeClassname: "devicon:redis-wordmark",
           style: {
             color: "#0089D6",
             width: "60px",
@@ -262,36 +263,62 @@ const skills = {
           },
         },
         {
-          skillName: "Jenkins",
-          fontAwesomeClassname: "logos:jenkins",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "devicon:postgresql-wordmark",
           style: {
             color: "#4285F4",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
+
       ],
     },
     {
-      title: "Tools and Technologies",
+      title: "DevOps & System Administration",
       fileName: "DesignImg",
       skills: [
         "⚡ Profficient in various operating systems",
         "⚡ Testing of REST API's using postman",
       ],
       softwareSkills: [
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "devicon:kubernetes-wordmark",
+          style: {
+            color: "#FF2BC2",
+            width: "70px",
+            height: "50px",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker",
+          style: {
+            color: "#FF2BC2",
+            width: "70px",
+            height: "50px",
+          },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "devicon:terraform-wordmark",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "logos:jenkins",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "NGINX",
+          fontAwesomeClassname: "devicon:nginx",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
         {
           skillName: "Linux",
           fontAwesomeClassname: "devicon:linux",
@@ -304,22 +331,11 @@ const skills = {
           fontAwesomeClassname: "logos:git",
           style: {
             color: "#F24E1E",
+            width: "70px",
+            height: "50px",
           },
         },
-        {
-          skillName: "Postman",
-          fontAwesomeClassname: "logos:postman-icon",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Jira",
-          fontAwesomeClassname: "devicon:jira-wordmark",
-          style: {
-            color: "#000000",
-          },
-        },
+
       ],
     },
   ],
@@ -384,13 +400,14 @@ const degrees = {
     {
       title: "JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY HYDERABAD",
       subtitle: "B.Tech. in Computer Science and Engineering",
-      logo_path: "jntuhlogo.png",
+      logo_path: "JNTU_Hyderabad_logo.png",
       alt_name: "JNTUH",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ Undertook a rigorous academic journey with a focus on cutting-edge technologies, including Object-Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing, Operating Systems, and Database Management Systems. Developed a strong foundation in computer science fundamentals.",
-        "⚡ As the Head of 'Bits and Bytes,' a prominent coding club at JNTUH, spearheaded efforts to transform the programming culture on campus. Organized and hosted engaging webinars to impart knowledge to fellow students, fostering technical skill development among peers. Led the organization of technical fests and orchestrated numerous successful events.",
-        "⚡Acknowledged for academic excellence with prestigious scholarships, including the MHRD Scholarship and the Telangana State Government Merit Scholarship.",
+        "⚡ Led 'Bits and Bytes' coding club at JNTUH, boosting programming culture through Coding Competitions, webinars, technical fests, and events.",
+        "⚡ Received MHRD and Telangana State Government scholarships for academic excellence",
+        "⚡ Quest-2022(JNTUH Biggest Technical Fest) Co-Ordinator",
+        "⚡ Coursework: Cloud Computing, Data Structures & Algorithms, Computer Networks, Object Oriented Design, algorithm design, Operating System, Artificial Intelligence, Machine Learning.",
       ],
       website_link: "https://jntuhceh.ac.in/",
     },
@@ -401,7 +418,7 @@ const degrees = {
       alt_name: "San José State University",
       duration: "2023 - 2025",
       descriptions: [
-        "⚡ Enrolled in Leading-edge coursework, including Enterprise Software Platforms, Software Systems Engineering and Enterprise Distributed Systems.",
+        "⚡ Enrolled in Leading-edge coursework, including Enterprise Software Platforms, Software Systems Engineering, Enterprise Distributed Systems, Data Mining, Software Testing & Quality Assurance, System Software",
       ],
       website_link: "https://www.sjsu.edu/",
     },
@@ -410,32 +427,32 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    // {
-    //   title: "HackerRank Java",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "stanford_logo.png",
-    //   certificate_link: "https://www.hackerrank.com/certificates/268817ba654e",
-    //   alt_name: "HackerRank Java",
-    //   color_code: "#8C151599",
-    // },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
+    {
+      title: "AWS Certified Solutions Architect",
+      subtitle: "- AWS",
+      logo_path: "aws-certified-solutions-architect-associate.png",
+      certificate_link: "https://www.credly.com/badges/d6100fb7-3eef-4c03-ad91-083ec298951a/linked_in_profile",
+      alt_name: "AWS Certified Solutions Architect",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Terraform Associate",
+      subtitle: "- HarshiCorp",
+      logo_path: "terraform.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+      alt_name: "deeplearning.ai",
+      color_code: "#00000099",
+    },
+    {
+      title: "Google Hashcode",
+      subtitle: "- Google",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://codingcompetitions.withgoogle.com/hashcode/certificate/summary/0000000000435809",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
+    },
     // {
     //   title: "Data Science",
     //   subtitle: "- Alex Aklson",
@@ -525,7 +542,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-  "I've consistently demonstrated my passion for leveraging technical knowledge to support others, whether it's assisting students in their learning journeys or contributing to the growth of a startup company. My adaptability shines through as I eagerly acquire new technical skills on-demand, ensuring I can tackle challenges and provide innovative solutions effectively. This innate drive to assist, coupled with a commitment to personal growth, has enabled me to make a meaningful impact in both educational and professional settings, fostering an environment of continuous learning and achievement.",
+    "I am passionate about using my technical skills to help others, from supporting students' learning to contributing to startup growth. My adaptability and eagerness to learn new skills allow me to effectively solve problems and innovate. This drive, combined with a commitment to personal growth, helps me positively impact educational and professional environments, promoting continuous learning and success.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -540,7 +557,7 @@ const experience = {
           duration: "May 2022 - July 2023",
           location: "Hyderabad, Telangana",
           description:
-           "Thrived in the dynamic environment of a startup, collaborating seamlessly with an exceptional team. Committed to exceeding client expectations by going the extra mile, ensuring timely delivery of features. Adeptly resolved production challenges, elevating client satisfaction. Spearheaded innovation by proposing valuable feature enhancements to the product manager, contributing significantly to product excellence and top ratings. Committed to knowledge sharing, guided new team members to success, resolving doubts, and fostering a culture of growth and achievement.",
+            "Thrived in the dynamic environment of a startup, collaborating seamlessly with an exceptional team. Committed to exceeding client expectations by going the extra mile, ensuring timely delivery of features. Adeptly resolved production challenges, elevating client satisfaction. Spearheaded innovation by proposing valuable feature enhancements to the product manager, contributing significantly to product excellence and top ratings. Committed to knowledge sharing, guided new team members to success, resolving doubts, and fostering a culture of growth and achievement.",
           color: "#0879bf",
         },
       ],
@@ -554,10 +571,48 @@ const experience = {
           company_url: "https://darwinbox.com/",
           logo_path: "Darwinbox Horizontal Logo_Colour.jpg",
           duration: "Jan 2022 - May 2022",
-          location: "San Francisco, USA",
+          location: "Hyderabad, Telangana",
           description:
-         "I thrived in these fast-paced environments. I took on challenges head-on, acquiring in-demand skills on the fly to meet project requirements.   ",
+            "I thrived in these fast-paced environments. I took on challenges head-on, acquiring in-demand skills on the fly to meet project requirements.   ",
           color: "#000000",
+        },
+        {
+          title: "Software Engineer Virtual Intern",
+          company: "JPMorgan Chase & Co",
+          company_url: "https://www.jpmorganchase.com/",
+          logo_path: "JP-Morgan-Chase-Logo.png",
+          duration: "July 2020 - Aug 2020",
+          location: "Hyderabad, Telangana",
+          description:
+            "Pioneered development of a financial data analysis using Python and React, delivered instantaneous stock valuation insights.Revolutionized development workflows and data feed precision by diagnosing and optimizing stock price algorithms.",
+          color: "#000000",
+        },
+      ],
+    },
+    {
+      title: "Hackathons",
+      experiences: [
+        {
+          title: "Stanford University - Treehacks 2024",
+          company: "NutriVista",
+          company_url: "https://www.stanford.edu/",
+          logo_path: "stanford_logo.png",
+          duration: "February 2024",
+          location: "Stanford University, CA",
+          description:
+            "'NutriVista' is a cutting-edge app designed at Treehacks, transforming how users approach grocery shopping and dining. It leverages receipt analysis to provide in-depth nutritional content, environmental impact scores, and personalized recipe recommendations, aiming to foster healthier and more eco-conscious living. The app intelligently adapts to individual purchase patterns, offering tailored recipes that align with users' dietary objectives, making informed eating choices simpler and more accessible.",
+          color: "#4285F4",
+        },
+        {
+          title: "UC Berkley - CalHacks 2023",
+          company: "BookShare",
+          company_url: "https://www.berkeley.edu/",
+          logo_path: "Seal_of_University_of_California,_Berkeley.svg",
+          duration: "October 2023",
+          location: "University of California, Berkeley, CA",
+          description:
+            "'BookShare' is an innovative application developed during CalHacks at UC Berkeley, designed to redefine the way students access literature. This platform bridges the gap between students with spare books and those in need, facilitating book rentals and donations within the academic community. BookShare aims to promote a culture of sharing and sustainability, making education more accessible and environmentally friendly by extending the life cycle of books and reducing waste. Its intuitive interface ensures a seamless exchange process, empowering students to save on resources while fostering a collaborative learning environment.",
+          color: "#4285F4",
         },
       ],
     },
@@ -568,7 +623,7 @@ const experience = {
           title: "Head of Bits and Bytes",
           company: "Bits and Bytes - JNTUH Coding Club",
           company_url: "https://jntuhceh.ac.in/",
-          logo_path: "jntuhlogo.png",
+          logo_path: "JNTU_Hyderabad_logo.png",
           duration: "August 2021 - July 2022",
           location: "Hyderabad, Telangana",
           description:
@@ -646,7 +701,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "sravan1.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Competitive Programming, NodeJs, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Cloud, DevOps and Full Stack.",
   },
   blogSection: {
     title: "Blogs",

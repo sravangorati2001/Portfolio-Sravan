@@ -2,6 +2,8 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import GreetingImageDiv from '../GreetingImageDiv';
+import GreetingText from '../GreetingText';
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
@@ -14,22 +16,17 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
+              <h1 className="greeting-text" style={{ color: theme.text, marginBottom: '10px' }}>
                 {greeting.title}
               </h1>
               {greeting.nickname && (
-                <h2 className="greeting-nickname" style={{ color: theme.text }}>
+                <h2 className="greeting-nickname" style={{ color: theme.text, marginBottom: '70px' }}>
                   ( {greeting.nickname} )
                 </h2>
               )}
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle}
-              </p>
+              <GreetingText theme={theme} />
               <SocialMedia theme={theme} />
-              <div className="portfolio-repo-btn-div">
+              <div className="portfolio-repo-btn-div" style={{ marginTop: '20px' }}>
                 <Button
                   text="⭐ Star Me On Github"
                   newTab={true}
@@ -38,19 +35,11 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/greeting.gif")}
-              style={{ height: '55vh', paddingTop: '10px' , width:'800px',borderRadius:'20px'}}
-						></img>
-            {/* <FeelingProud theme={theme} /> */}
+
+            <GreetingImageDiv />
           </div>
         </div>
       </div>

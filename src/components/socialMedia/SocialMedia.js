@@ -15,7 +15,7 @@ const IconWrapper = styled.span`
 
 export default function socialMedia(props) {
   return (
-    <div className="social-media-div">
+    <div className="social-media-div" style={{ marginTop: '100px' }}>
       {socialMediaLinks.map((media) => {
         return (
           <a

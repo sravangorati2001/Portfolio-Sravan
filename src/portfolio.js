@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "SravanKumar",
   nickname: "Throny",
   subTitle:
-    "I'm a dedicated problem solver, eager to develop solutions that foster scalable and sustainable change in technology and society.",
+    "Building What Matters: Design • Architect • Develop • Test • Deploy • Scale Creating solutions people truly want.",
   resumeLink:
     "https://drive.google.com/file/d/1crIBGIh-l-BjVzw_T_0ujG4nN-SyTIGR/view?usp=drive_link",
   portfolio_repository: "https://github.com/sravangorati2001",

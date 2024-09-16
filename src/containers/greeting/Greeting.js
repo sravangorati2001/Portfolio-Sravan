@@ -14,7 +14,7 @@ export default function Greeting(props) {
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
-          <div className="greeting-text-div">
+          <div className="greeting-text-div" style={{ marginRight: '300px' }}>
             <div>
               <h1 className="greeting-text" style={{ color: theme.text, marginBottom: '10px' }}>
                 {greeting.title}
@@ -37,7 +37,7 @@ export default function Greeting(props) {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          <div className="greeting-image-div" style={{ marginRight: '200px' }}>
 
             <GreetingImageDiv />
           </div>

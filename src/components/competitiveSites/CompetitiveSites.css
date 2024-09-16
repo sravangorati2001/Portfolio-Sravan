@@ -1,23 +1,83 @@
-.dev-icons {
-  padding-left: 0;
-  list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+/* Container for all logos */
+.logo-container {
+  background-color: #dfd8d8;
+  /* White background for the box */
+  padding: 30px 40px;
+  /* Adds padding inside the container */
+  border-radius: 15px;
+  /* Rounds the corners of the box */
+  display: inline-block;
+  /* Ensures the container fits the logos */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  /* Floating effect with shadow */
   text-align: center;
+  /* Centers the logos horizontally */
+  position: relative;
+  /* Allows for the gradient to appear under the box */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth hover effect */
 }
 
+/* Gradient effect under the box */
+.logo-container::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  /* Position it below the box */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(215, 84, 40, 0.43) 100%);
+  filter: blur(10px);
+  z-index: -1;
+  /* Places it behind the box */
+}
+
+/* Floating effect when hovering */
+.logo-container:hover {
+  transform: translateY(-10px);
+  /* Lifts the box slightly */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  /* Stronger shadow on hover */
+}
+
+/* List of logos */
+.dev-icons {
+  list-style: none;
+  /* Removes bullet points */
+  padding: 0;
+  /* Removes default padding */
+  margin: 0;
+  /* Removes default margin */
+  display: flex;
+  /* Displays logos in a row */
+  justify-content: center;
+  /* Centers the logos */
+  gap: 25px;
+  /* Adds space between the logos */
+}
+
+/* Each logo */
 .competitive-sites-inline {
   display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  font-family: "Google Sans Regular";
+  /* Ensures each logo is inline */
 }
 
-.competitive-sites-inline > i {
-  color: #868e96;
+/* Optional: Style for the icon */
+.iconify {
+  font-size: 50px;
+  /* Sets the size of the logos */
+  color: #007BFF;
+  /* Blue color for logos (you can adjust this) */
+  transition: transform 0.2s ease, color 0.2s ease;
+  /* Adds hover effect on the icon */
 }
 
-.competitive-sites-inline > i:hover {
-  color: #645beb;
+/* Hover effect for the icons */
+.iconify:hover {
+  transform: scale(1.2);
+  /* Slight zoom on hover */
+  color: #ff6347;
+  /* Changes color on hover */
 }

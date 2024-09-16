@@ -87,6 +87,8 @@ const skills = {
           fontAwesomeClassname: "skill-icons:golang",
           style: {
             backgroundColor: "transparent",
+            width: "60px",
+            height: "60px",
           },
         },
 
@@ -101,18 +103,22 @@ const skills = {
         },
         {
           skillName: "Javascript",
-          fontAwesomeClassname: "skill-icons:javascript",
+          fontAwesomeClassname: "logos-javascript",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
-          skillName: "Javascript",
+          skillName: "Python",
           fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -121,6 +127,8 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -129,6 +137,8 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -137,6 +147,8 @@ const skills = {
           style: {
             backgroundColor: "white",
             color: "#D00000",
+            width: "60px",
+            height: "60px",
           },
         },
       ],
@@ -155,6 +167,8 @@ const skills = {
           fontAwesomeClassname: "logos:nodejs",
           style: {
             color: "#E34F26",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -162,6 +176,8 @@ const skills = {
           fontAwesomeClassname: "logos:spring-icon",
           style: {
             color: "#1572B6",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -169,6 +185,8 @@ const skills = {
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -176,6 +194,8 @@ const skills = {
           fontAwesomeClassname: "devicon:nextjs",
           style: {
             color: "#61DAFB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -183,6 +203,8 @@ const skills = {
           fontAwesomeClassname: "skill-icons:materialui-light",
           style: {
             color: "#61DAFB",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -190,6 +212,8 @@ const skills = {
           fontAwesomeClassname: "skill-icons:expressjs-dark",
           style: {
             color: "#2C8EBB",
+            width: "60px",
+            height: "60px",
           },
         },
         // {
@@ -218,9 +242,11 @@ const skills = {
       softwareSkills: [
         {
           skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          fontAwesomeClassname: "skill-icons:aws-dark",
           style: {
             color: "#FF9900",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -228,6 +254,8 @@ const skills = {
           fontAwesomeClassname: "devicon:azure-wordmark",
           style: {
             color: "#FF9900",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -235,6 +263,8 @@ const skills = {
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -242,6 +272,8 @@ const skills = {
           fontAwesomeClassname: "logos:mysql",
           style: {
             color: "#336791",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -267,6 +299,8 @@ const skills = {
           fontAwesomeClassname: "devicon:postgresql-wordmark",
           style: {
             color: "#4285F4",
+            width: "60px",
+            height: "60px",
           },
         },
 
@@ -282,11 +316,11 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Kubernetes",
-          fontAwesomeClassname: "devicon:kubernetes-wordmark",
+          fontAwesomeClassname: "skill-icons:kubernetes",
           style: {
             color: "#FF2BC2",
-            width: "70px",
-            height: "50px",
+            width: "80px",
+            height: "70px",
           },
         },
         {
@@ -294,8 +328,8 @@ const skills = {
           fontAwesomeClassname: "logos:docker",
           style: {
             color: "#FF2BC2",
-            width: "70px",
-            height: "50px",
+            width: "80px",
+            height: "70px",
           },
         },
         {
@@ -303,6 +337,8 @@ const skills = {
           fontAwesomeClassname: "devicon:terraform-wordmark",
           style: {
             color: "#FF2BC2",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -310,6 +346,8 @@ const skills = {
           fontAwesomeClassname: "logos:jenkins",
           style: {
             color: "#FF2BC2",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -317,6 +355,8 @@ const skills = {
           fontAwesomeClassname: "devicon:nginx",
           style: {
             color: "#FF2BC2",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -324,6 +364,8 @@ const skills = {
           fontAwesomeClassname: "devicon:linux",
           style: {
             color: "#FF2BC2",
+            width: "60px",
+            height: "60px",
           },
         },
         {
@@ -335,9 +377,68 @@ const skills = {
             height: "50px",
           },
         },
+        {
+          skillName: "Power Shell",
+          fontAwesomeClassname: "skill-icons:powershell-dark",
+          style: {
+            color: "#F24E1E",
+            width: "80px",
+            height: "100px",
+          },
+        },
 
       ],
     },
+    {
+      title: "Logging & Monitoring",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Profficient in various operating systems",
+        "⚡ Testing of REST API's using postman",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Elasticsearch",
+          fontAwesomeClassname: "skill-icons:elasticsearch-dark",
+          style: {
+            color: "#FF2BC2",
+            width: "80px",
+            height: "70px",
+          },
+        },
+        {
+          skillName: "Prometheus",
+          fontAwesomeClassname: "skill-icons:prometheus",
+          style: {
+            color: "#FF2BC2",
+            width: "80px",
+            height: "70px",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "skill-icons:grafana-dark",
+          style: {
+            color: "#FF2BC2",
+            width: "80px",
+            height: "70px",
+          },
+        },
+        {
+          skillName: "Splunk",
+          fontAwesomeClassname: "logos:splunk",
+          style: {
+            color: "#FF2BC2",
+            width: "80px",
+            height: "70px",
+          },
+        },
+
+
+
+
+      ],
+    }
   ],
 };
 
@@ -398,30 +499,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY HYDERABAD",
-      subtitle: "B.Tech. in Computer Science and Engineering",
-      logo_path: "JNTU_Hyderabad_logo.png",
-      alt_name: "JNTUH",
-      duration: "2018 - 2022",
-      descriptions: [
-        "⚡ Led 'Bits and Bytes' coding club at JNTUH, boosting programming culture through Coding Competitions, webinars, technical fests, and events.",
-        "⚡ Received MHRD and Telangana State Government scholarships for academic excellence",
-        "⚡ Quest-2022(JNTUH Biggest Technical Fest) Co-Ordinator",
-        "⚡ Coursework: Cloud Computing, Data Structures & Algorithms, Computer Networks, Object Oriented Design, algorithm design, Operating System, Artificial Intelligence, Machine Learning.",
-      ],
-      website_link: "https://jntuhceh.ac.in/",
-    },
-    {
       title: "San José State University",
       subtitle: "M.S. in Computer Software Engineering",
       logo_path: "sjsu2.webp",
       alt_name: "San José State University",
       duration: "2023 - 2025",
       descriptions: [
-        "⚡ Enrolled in Leading-edge coursework, including Enterprise Software Platforms, Software Systems Engineering, Enterprise Distributed Systems, Data Mining, Software Testing & Quality Assurance, System Software",
+        "⚡ Coursework: Enterprise Distributed Systems, Cloud Computing, Enterprise Software Platforms, Data Mining, Software Testing & Quality Assurance, System Software",
       ],
       website_link: "https://www.sjsu.edu/",
     },
+    {
+      title: "JNTUH University College of Engineering Hyderabad",
+      subtitle: "B.Tech. in Computer Science and Engineering",
+      logo_path: "JNTU_Hyderabad_logo.png",
+      alt_name: "JNTUH",
+      duration: "2018 - 2022",
+      descriptions: [
+        "⚡ Led 'Bits and Bytes' coding club at JNTUH, boosting programming culture through Coding Competitions, webinars, technical fests, and events.",
+        "⚡ Quest-2022(JNTUH Biggest Technical Fest) Co-Ordinator",
+        "⚡ Coursework: Cloud Computing, Data Structures & Algorithms, Computer Networks, Object Oriented Design, algorithm design, Operating System, Artificial Intelligence, Machine Learning.",
+      ],
+      website_link: "https://jntuhceh.ac.in/",
+    },
+
   ],
 };
 
@@ -540,15 +641,45 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Hackathons and Volunteership",
   description:
     "I am passionate about using my technical skills to help others, from supporting students' learning to contributing to startup growth. My adaptability and eagerness to learn new skills allow me to effectively solve problems and innovate. This drive, combined with a commitment to personal growth, helps me positively impact educational and professional environments, promoting continuous learning and success.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work Experience",
       work: true,
       experiences: [
+        {
+          title: "Research Assistant",
+          company: "San Jose State University",
+          company_url: "https://www.sjsu.edu/",
+          logo_path: "sjsu2.webp",
+          duration: "August 2024 - Present",
+          location: "San Jose, California",
+          description:
+            [
+              " ⚡ Architected and implemented a robust hybrid Kubernetes infrastructure, seamlessly integrating on-premises and cloud resources, resulting in 40 % improved resource utilization and 30 % reduced operational costs",
+              " ⚡ Engineered an advanced dynamic resource allocation system with horizontal pod autoscaling, achieving 99.99 % uptime and 50% faster response times during peak loads in a multi - environment setup"
+            ],
+          color: "#0879bf",
+        },
+        {
+          title: "MLOps/DevOps Engineer Intern",
+          company: "Darwinbox",
+          company_url: "https://darwinbox.com/",
+          logo_path: "Darwinbox Horizontal Logo_Colour.jpg",
+          duration: "June 2024 - August 2024",
+          location: "Hyderabad, Telangana",
+          description:
+            [
+              " ⚡ Reduced AWS Infrastructure costs by 80 % by migrating from AWS - managed Elasticsearch to a self - managed cluster on multi - AZ EC2 Instance, improving resilience and performance.",
+              " ⚡ Architected and maintained highly scalable architectures using Kubernetes, and Docker, ensuring 99.99 % uptime and seamless scaling for distributed cloud computing environments. ",
+              " ⚡ Automated systems administration and infrastructure deployment using Ansible and Infrastructure as Code (Terraform), cutting setup times by 50 % and improving real - time monitoring. ",
+              " ⚡ Engineered a high - performance data preprocessing framework in Go using goroutines and channels, enabling efficient transfer and indexing of 100GB + files to Elasticsearch, reducing upload times by 70 %."
+            ],
+          color: "#0879bf",
+        },
         {
           title: "Software Development Engineer",
           company: "Darwinbox",
@@ -557,23 +688,28 @@ const experience = {
           duration: "May 2022 - July 2023",
           location: "Hyderabad, Telangana",
           description:
-            "Thrived in the dynamic environment of a startup, collaborating seamlessly with an exceptional team. Committed to exceeding client expectations by going the extra mile, ensuring timely delivery of features. Adeptly resolved production challenges, elevating client satisfaction. Spearheaded innovation by proposing valuable feature enhancements to the product manager, contributing significantly to product excellence and top ratings. Committed to knowledge sharing, guided new team members to success, resolving doubts, and fostering a culture of growth and achievement.",
+            [
+              " ⚡ Engineered ETL Migration service, seamlessly migrated data from MongoDB to AWS Redshift, accelerated reports and analytics generation from an hour to seconds, and reduced infrastructure cost by $150,000 / month.",
+              " ⚡ Administered Linux systems: managed users and groups, configured UFW firewall, mounted persistent volumes, and implemented security best practices to ensure robust and secure infrastructure.",
+              " ⚡ Engineered a TypeScript - based email parsing framework, deployed on Kubernetes, this system automated ticket creation and categorization, handling large email volumes and reducing processing time by over 75 %.",
+              " ⚡ Designed and managed AWS VPCs, private subnets, security groups, NAT gateways, and established mutual TLS across microservices, ensuring end - to - end encryption and achieving 100 % compliance with security protocols. ",
+              " ⚡ Built a high - performance PHP YII server, improving system performance by 40 % and delivering scalable REST APIs for faster mobile integration.",
+              " ⚡ Directed and mentored a cross - functional team of 6, enhanced hands - on experience in Cloud Services, seamless integration of on - premises infrastructure with AWS, and refined code quality through rigorous PR reviews "
+            ],
           color: "#0879bf",
         },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
         {
-          title: "Product Development Intern",
+          title: "Software Engineer Intern",
           company: "Darwinbox",
           company_url: "https://darwinbox.com/",
           logo_path: "Darwinbox Horizontal Logo_Colour.jpg",
           duration: "Jan 2022 - May 2022",
           location: "Hyderabad, Telangana",
           description:
-            "I thrived in these fast-paced environments. I took on challenges head-on, acquiring in-demand skills on the fly to meet project requirements.   ",
+            [
+              " ⚡ Developed microservices using Node.js, PHP & Python, successfully containerized with Docker, & deployed using Kubernetes. ",
+              " ⚡ Created an internal QA / blogging application, implementing features such as employee ratings, messaging, and friend requests "
+            ],
           color: "#000000",
         },
         {
@@ -584,7 +720,7 @@ const experience = {
           duration: "July 2020 - Aug 2020",
           location: "Hyderabad, Telangana",
           description:
-            "Pioneered development of a financial data analysis using Python and React, delivered instantaneous stock valuation insights.Revolutionized development workflows and data feed precision by diagnosing and optimizing stock price algorithms.",
+            "⚡ Pioneered development of a financial data analysis using Python and React, delivered instantaneous stock valuation insights.Revolutionized development workflows and data feed precision by diagnosing and optimizing stock price algorithms.",
           color: "#000000",
         },
       ],

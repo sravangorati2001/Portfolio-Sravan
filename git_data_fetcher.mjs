@@ -249,15 +249,15 @@ const languages_icons = {
   Python: "logos-python",
   "Jupyter Notebook": "logos-jupyter",
   HTML: "logos-html-5",
-  CSS: "logos-css-3",
+  CSS: "simple-icons:react",
   JavaScript: "logos-javascript",
   "C#": "logos-c-sharp",
   Java: "logos-java",
   Shell: "simple-icons:shell",
   Ruby: "logos:ruby",
-  PHP: "logos-php",
   Dockerfile: "simple-icons:docker",
   Rust: "logos-rust",
+  Go: "skill-icons:golang",
 };
 
 fetch(baseUrl, {

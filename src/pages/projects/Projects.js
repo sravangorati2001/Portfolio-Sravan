@@ -49,6 +49,20 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+        
+
+        {/* GitHub Stats (Method 2) */}
+        <Fade bottom duration={2000} distance="40px">
+          <div className="github-stats-section">
+            <h2 style={{ color: theme.text }}>My GitHub Stats</h2>
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com/?user=sravangorati2001"
+              alt="GitHub Stats"
+              className="github-stats"
+            />
+          </div>
+        </Fade>
+
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;

@@ -16,7 +16,7 @@ class ExperienceCard extends Component {
               className="experience-card-logo"
               src={require(`../../assests/images/${experience["logo_path"]}`)}
               alt=""
-              style={{ width: '200px', height: '160px' }}
+              style={{ width: '150px', height: '100px' }}
             />
           </div>
         </Fade>

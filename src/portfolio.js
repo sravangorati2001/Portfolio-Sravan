@@ -668,7 +668,7 @@ const experience = {
           title: "MLOps/DevOps Engineer Intern",
           company: "Darwinbox",
           company_url: "https://darwinbox.com/",
-          logo_path: "Darwinbox Horizontal Logo_Colour.jpg",
+          logo_path: "pyxer.png",
           duration: "June 2024 - August 2024",
           location: "Hyderabad, Telangana",
           description:

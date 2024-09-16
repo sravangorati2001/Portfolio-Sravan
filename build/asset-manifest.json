@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5e71091.chunk.css",
-    "main.js": "/static/js/main.714da59c.chunk.js",
-    "main.js.map": "/static/js/main.714da59c.chunk.js.map",
+    "main.css": "/static/css/main.81c6eed2.chunk.css",
+    "main.js": "/static/js/main.fd35ebfe.chunk.js",
+    "main.js.map": "/static/js/main.fd35ebfe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88ab095b.js",
     "runtime-main.js.map": "/static/js/runtime-main.88ab095b.js.map",
-    "static/js/2.d05954e4.chunk.js": "/static/js/2.d05954e4.chunk.js",
-    "static/js/2.d05954e4.chunk.js.map": "/static/js/2.d05954e4.chunk.js.map",
+    "static/js/2.767fd000.chunk.js": "/static/js/2.767fd000.chunk.js",
+    "static/js/2.767fd000.chunk.js.map": "/static/js/2.767fd000.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.96430e3584c7409ed0721827fca037a7.js": "/precache-manifest.96430e3584c7409ed0721827fca037a7.js",
+    "precache-manifest.36fc77c750b91750beabbaecafa5535e.js": "/precache-manifest.36fc77c750b91750beabbaecafa5535e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f5e71091.chunk.css.map": "/static/css/main.f5e71091.chunk.css.map",
+    "static/css/main.81c6eed2.chunk.css.map": "/static/css/main.81c6eed2.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Darwinbox Horizontal Logo_Colour.jpg": "/static/media/Darwinbox Horizontal Logo_Colour.43a0e246.jpg",
+    "static/media/JNTU_Hyderabad_logo.png": "/static/media/JNTU_Hyderabad_logo.52e7c9d0.png",
+    "static/media/JP-Morgan-Chase-Logo.png": "/static/media/JP-Morgan-Chase-Logo.a241e587.png",
     "static/media/SJSU Primary mark_4cp.wmf": "/static/media/SJSU Primary mark_4cp.5b50dae3.wmf",
     "static/media/SJSU Primary mark_4cp.png": "/static/media/SJSU Primary mark_4cp.ba84cb8a.png",
     "static/media/SJSU Primary mark_4cp.eps": "/static/media/SJSU Primary mark_4cp.c4ca8515.eps",
@@ -42,9 +44,11 @@
     "static/media/SJSU Primary mark_Web_Blue.png": "/static/media/SJSU Primary mark_Web_Blue.e13d1a3d.png",
     "static/media/SJSU Primary mark_Web_Grey.png": "/static/media/SJSU Primary mark_Web_Grey.ecf6d138.png",
     "static/media/SJSU1.svg": "/static/media/SJSU1.b0c90fd2.svg",
+    "static/media/Seal_of_University_of_California,_Berkeley.svg": "/static/media/Seal_of_University_of_California,_Berkeley.3bc783d8.svg",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
+    "static/media/aws-certified-solutions-architect-associate.png": "/static/media/aws-certified-solutions-architect-associate.ec72a636.png",
     "static/media/blogs_image.svg": "/static/media/blogs_image.058eca4c.svg",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.fee92c18.png",
@@ -86,14 +90,15 @@
     "static/media/stanford_logo.png": "/static/media/stanford_logo.2c497738.png",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.3fa54242.svg",
+    "static/media/terraform.png": "/static/media/terraform.b2d2493b.png",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.0993e324.png",
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.d6363089.svg",
     "static/media/visual_identity_standards_basic.pdf": "/static/media/visual_identity_standards_basic.973fe9de.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.88ab095b.js",
-    "static/js/2.d05954e4.chunk.js",
-    "static/css/main.f5e71091.chunk.css",
-    "static/js/main.714da59c.chunk.js"
+    "static/js/2.767fd000.chunk.js",
+    "static/css/main.81c6eed2.chunk.css",
+    "static/js/main.fd35ebfe.chunk.js"
   ]
 }

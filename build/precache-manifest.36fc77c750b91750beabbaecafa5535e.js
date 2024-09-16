@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e752c0fb4b45a24deaf9fe8f84bec9a9",
+    "revision": "640030fede4c58c405fb64fa8e51d29b",
     "url": "/index.html"
   },
   {
-    "revision": "17fbcfa80999b519503e",
-    "url": "/static/css/main.f5e71091.chunk.css"
+    "revision": "121564c32478605e8359",
+    "url": "/static/css/main.81c6eed2.chunk.css"
   },
   {
-    "revision": "be6db4693bf702d78df5",
-    "url": "/static/js/2.d05954e4.chunk.js"
+    "revision": "93fecfd6e88a2b958578",
+    "url": "/static/js/2.767fd000.chunk.js"
   },
   {
-    "revision": "17fbcfa80999b519503e",
-    "url": "/static/js/main.714da59c.chunk.js"
+    "revision": "121564c32478605e8359",
+    "url": "/static/js/main.fd35ebfe.chunk.js"
   },
   {
     "revision": "16f3f5d26948bab99bff",
@@ -50,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5c77a6aed75cdad9489effd0d5ea411",
     "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+  },
+  {
+    "revision": "52e7c9d0d1b9ee2ab1f3e1823ffbc38e",
+    "url": "/static/media/JNTU_Hyderabad_logo.52e7c9d0.png"
+  },
+  {
+    "revision": "a241e587ee3dd30fe4c282d082dc2d94",
+    "url": "/static/media/JP-Morgan-Chase-Logo.a241e587.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -172,6 +180,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SJSU1.b0c90fd2.svg"
   },
   {
+    "revision": "3bc783d81c8492b679abfac23893b849",
+    "url": "/static/media/Seal_of_University_of_California,_Berkeley.3bc783d8.svg"
+  },
+  {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "/static/media/address_image.16559172.svg"
   },
@@ -182,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
     "url": "/static/media/animated_logo.dcd6dee2.svg"
+  },
+  {
+    "revision": "ec72a63681cba380894de3a9499c2968",
+    "url": "/static/media/aws-certified-solutions-architect-associate.ec72a636.png"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -402,6 +418,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3fa5424232370e3d049c9555d9c440a4",
     "url": "/static/media/talksCardBackAlt.3fa54242.svg"
+  },
+  {
+    "revision": "b2d2493b767ed31c736cfec06ff220e1",
+    "url": "/static/media/terraform.b2d2493b.png"
   },
   {
     "revision": "0993e3246bf5146154391a0afef79b03",
